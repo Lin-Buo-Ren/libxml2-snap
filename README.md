@@ -1,5 +1,5 @@
 # Unofficial Snap Packaging for XML Toolkit from the GNOME Project
-This is the unofficial snap packaging for [XML Toolkit from the GNOME Project](www.xmlsoft.org), [Snaps are universal Linux packages](https://snapcraft.io).
+This is the unofficial snap packaging for [XML Toolkit from the GNOME Project](http://www.xmlsoft.org), [Snaps are universal Linux packages](https://snapcraft.io).
 
 Refer [snap/README.md](snap/README.md) for user-oriented information.
 
