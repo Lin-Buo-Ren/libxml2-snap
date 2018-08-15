@@ -185,12 +185,14 @@ parts:
     #- libpython-all-dev
     #- python-all-dev
 
-    - autoconf
-    - automake
+    # DISABLED: Automatically installed by `autotools` plugin
+    #- autoconf
+    #- automake
+    #- libtool-bin
+    #- make
+
     - libicu-dev
     - liblzma-dev
-    - libtool-bin
-    - make
     - zlib1g-dev
     stage-packages:
     - libicu55
