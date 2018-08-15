@@ -35,20 +35,13 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 
 If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft.io).
 
-<!-- 
-
 ## The Snapcrafters
-| [![Your Name](http://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431/?s=128)](https://github.com/yourname/) |
+| [![林博仁(Buo-ren, Lin)'s Avatar](https://www.gravatar.com/avatar/66a5b84972e73e895d5d68d48b1e1e21?size=128)](https://github.com/Lin-Buo-Ren/) |
 | :----------------------------------------------------------: |
-|          [Your Name](https://github.com/yourname/)           |
+|   [林博仁<br>Buo-ren, Lin](https://Lin-Buo-Ren.github.io)    |
 
---> 
-
-<!-- Uncomment and modify this when you have upstream contacts
 
 ## Upstream
-| [![Upstream Name](http://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431?s=128)](https://github.com/upstreamname) |
+| [![Upstream Name](http://gravatar.com/avatar/7696e09125323ea21a87ad8daacdc6d1?s=128)](mailto:Daniel.Veillard@w3.org) |
 | :----------------------------------------------------------: |
-|       [Upstream Name](https://github.com/upstreamname)       |
-
--->
+|       [Daniel Veillard](mailto:Daniel.Veillard@w3.org)       |
