@@ -13,8 +13,8 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 - [x] Create a snap that runs in `devmode`
 - [ ] (Skipped, not a GUI application)Add a screenshot to `snap/README.md`
 - [x] (Preferred upstream name reserved, taking over in progress)Register the snap in the store, **using the preferred upstream name**(i.e. without custom postfix).  If the preferred upstream name is not available or reserved, [file a request to take over the preferred upstream name](https://dashboard.snapcraft.io/register-snap) and temporary use a name with personal postfix instead.
-- [ ] Publish the `devmode` snap in the Snap store edge channel
-- [ ] Add install instructions to `snap/README.md`
+- [x] Publish the `devmode` snap in the Snap store edge channel
+- [x] Add install instructions to `snap/README.md`
 - [ ] Update snap store metadata, icons and screenshots
 - [ ] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
 - [ ] Publish the confined snap in the Snap store beta channel
