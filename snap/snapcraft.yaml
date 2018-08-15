@@ -32,15 +32,16 @@ version-script: |
     -o errexit \
     -o nounset
 
-  upstream_version="$(
-    git \
-      -C parts/libxml2/src \
-      describe \
-      --always \
-      --dirty=-d \
-      --tags \
-    | sed s/^v//
-  )"
+  #upstream_version="$(
+    #git \
+      #-C parts/libxml2/src \
+      #describe \
+      #--always \
+      #--dirty=-d \
+      #--tags \
+    #| sed s/^v//
+  #)"
+  upstream_version=2.9.8
 
   packaging_revision="$(
     git \
@@ -164,37 +165,66 @@ parts:
           "${SNAPCRAFT_PART_INSTALL}"/utilities
     override-prime: 'true'
 
-  my-app-part:
+  libxml2:
     after:
     - patches
 
-    # Run `snapcraft help sources` for supported keywords on pulling
-    # a part's source ingredients
-    #source:
-    #source-type:
+    #source: git://gitlab.gnome.org/GNOME/libxml2.git
+    #source-depth: 1
+    source: ftp://xmlsoft.org/libxml2/libxml2-2.9.8.tar.gz
     #source-tag:
-    #source-depth:
 
-    # Run `snapcraft plugins` for supported helper plugins
-    # Run `snapcraft help plugins` for supported keywords on building
-    # a part
-    plugin: nil
+    plugin: autotools
+    configflags:
+    - --disable-static
+    - --disable-dependency-tracking
+    - --without-html
+    - --without-python
+    build-packages:
+    # DISABLED: Python binding not required
+    #- libpython-all-dev
+    #- python-all-dev
 
-    override-stage: |
-      set \
-        -o errexit \
-        -o nounset
+    - autoconf
+    - automake
+    - libicu-dev
+    - liblzma-dev
+    - libtool-bin
+    - make
+    - zlib1g-dev
+    stage-packages:
+    - libicu55
+    - liblzma5
+    - zlib1g
 
-      snapcraftctl stage
+    filesets:
+      cmake:
+      - lib/cmake/*
+      docs-copyright:
+      - share/doc/libxml2-*/Copyright
+      docs-excluded:
+      - -share/doc/*
+      - -share/gtk-doc/*
+      - -share/man/man3/*
+      executables:
+      - bin/*
+      files-in-stage-packages:
+      - usr/*
+      include-headers:
+      - include/*
+      libtool-library:
+      - lib/*.la
+      m4:
+      - share/aclocal/*.m4
+      pkgconfig:
+      - lib/pkgconfig/*
+      static-library:
+      - lib/*.a
+      shared-library:
+      - lib/*.so*
 
-      find \
-        "${SNAPCRAFT_STAGE}"/share/applications \
-        -name '*.desktop' \
-        -print0 \
-        | xargs \
-          --no-run-if-empty \
-          --null \
-          --verbose \
-          sed \
-          --file "${SNAPCRAFT_STAGE}"/patches/patch-desktop-entries.sed \
-          --in-place
+    stage:
+    - $executables
+    - $docs-copyright
+    - $shared-library
+    - $files-in-stage-packages
