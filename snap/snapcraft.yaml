@@ -164,14 +164,6 @@ parts:
           "${SNAPCRAFT_PART_INSTALL}"/utilities
     override-prime: 'true'
 
-  yad:
-    after:
-    - desktop-gtk3
-
-    plugin: nil
-    stage-packages:
-    - yad
-
   my-app-part:
     after:
     - patches
