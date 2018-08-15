@@ -171,7 +171,7 @@ parts:
 
     #source: git://gitlab.gnome.org/GNOME/libxml2.git
     #source-depth: 1
-    source: ftp://xmlsoft.org/libxml2/libxml2-2.9.8.tar.gz
+    source: http://xmlsoft.org/sources/libxml2-2.9.8.tar.gz
     #source-tag:
 
     plugin: autotools
