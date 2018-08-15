@@ -19,13 +19,13 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 ([Don't have the `snap` command installed?](https://snapcraft.io/docs/core/install))
 
     # Install Snap #
-    sudo snap install --channel=edge --devmode libxml2-utils-brlin
-    #sudo snap install --channel=beta libxml2-utils-brlin
-    #sudo snap install libxml2-utils-brlin
+    sudo snap install --channel=edge --devmode libxml2-utils
+    #sudo snap install --channel=beta libxml2-utils
+    #sudo snap install libxml2-utils
     
     # Connect the Snap to Optional Interfaces #
     ## `removable-media`: For accessing XML files in removable media storage devices ##
-    sudo snap connect libxml2-utils-brlin:removable-media
+    sudo snap connect libxml2-utils:removable-media
 
 ## What is Working
 

@@ -14,7 +14,7 @@
 # For support refer to the snapcraft section in the Snapcraft Forum:
 # https://forum.snapcraft.io/c/snapcraft
 
-name: libxml2-utils-brlin
+name: libxml2-utils
 summary: XML Toolkit from the GNOME Project
 description: |
   Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.
