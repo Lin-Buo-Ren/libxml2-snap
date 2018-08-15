@@ -1,5 +1,5 @@
-# Unofficial Snap Packaging of [Project]
-This is the unofficial snap packaging of [Project], [Snaps are universal Linux packages](https://snapcraft.io).
+# Unofficial Snap Packaging for XML Toolkit from the GNOME Project
+This is the unofficial snap packaging for [XML Toolkit from the GNOME Project](www.xmlsoft.org), [Snaps are universal Linux packages](https://snapcraft.io).
 
 Refer [snap/README.md](snap/README.md) for user-oriented information.
 
@@ -8,8 +8,8 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 
 - [x] *Import* the [Snapcrafters Template Plus](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus) repository to your own GitHub account and name it as _snap_name_-snap (or any valid name you prefer) using GitHub's [Import repository](https://github.com/new/import) feature
   - It is recommended to *avoid forking the template repository* unless you're working on the template itself because you can only fork a repository once
-- [ ] Update the description of the repository
-- [ ] Update logos and references to `[Project]` and `[my-snap-name]` in `README.md`, `snap/snapcraft.yaml`, and `snap/README.md`
+- [x] Update the description of the repository
+- [x] Update logos and references to `[Project]` and `[my-snap-name]` in `README.md`, `snap/snapcraft.yaml`, and `snap/README.md`
 - [ ] Create a snap that runs in `devmode`
 - [ ] Add a screenshot to `snap/README.md`
 - [ ] Register the snap in the store, **using the preferred upstream name**(i.e. without custom postfix).  If the preferred upstream name is not available or reserved, [file a request to take over the preferred upstream name](https://dashboard.snapcraft.io/register-snap) and temporary use a name with personal postfix instead.
