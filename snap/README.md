@@ -5,9 +5,7 @@
 
 **This is the snap for XML Toolkit from the GNOME Project**, *"XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform)"*. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
 
-<!-- Uncomment and modify this when you are provided a build status badge
-[![Build Status Badge of the `my-snap-name` Snap](https://build.snapcraft.io/badge/snapcrafters/fork-and-rename-me.svg "Build Status of the `my-snap-name` snap")](https://build.snapcraft.io/user/snapcrafters/fork-and-rename-me)
--->
+[![Build Status Badge of the `libxml2-utils` Snap](https://build.snapcraft.io/badge/Lin-Buo-Ren/libxml2-snap.svg "Build Status of the `libxml2-utils` snap")](https://build.snapcraft.io/user/Lin-Buo-Ren/libxml2-snap)
 
 <!-- Uncomment and modify this when you have a screenshot
 ![Screenshot of the Snapped Application](screenshots/screenshot.png "Screenshot of the Snapped Application")
