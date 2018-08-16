@@ -25,15 +25,16 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 
 ## What is Working
 
-* [A list of functionallities that are verified working]
+* Launch
+* `xmllint --format`
 
 ## What is NOT Working...yet 
 
-* [A list of functionallities that are verified not working]
+Nothing so far.
 
 ## What is NOT Tested...yet
 
-* [A list of functionallities that are not tested for any reasons.]
+Everything not mentioned in the "What is Working" section.
 
 ## Support
 
