@@ -1,6 +1,6 @@
 # Snap Packaging for XML Toolkit from the GNOME Project
 
-  ![Icon of [Project]](gui/icon.png "Icon of [Project]")
+  ![Icon of XML Toolkit from the GNOME Project](gui/icon.png "Icon of XML Toolkit from the GNOME Project")
 
 
 **This is the snap for XML Toolkit from the GNOME Project**, *"XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform)"*. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
