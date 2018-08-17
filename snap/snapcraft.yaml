@@ -32,16 +32,15 @@ version-script: |
     -o errexit \
     -o nounset
 
-  #upstream_version="$(
-    #git \
-      #-C parts/libxml2/src \
-      #describe \
-      #--always \
-      #--dirty=-d \
-      #--tags \
-    #| sed s/^v//
-  #)"
-  upstream_version=2.9.8
+  upstream_version="$(
+    git \
+      -C parts/libxml2/src \
+      describe \
+      --always \
+      --dirty=-d \
+      --tags \
+    | sed s/^v//
+  )"
 
   packaging_revision="$(
     git \
@@ -169,10 +168,9 @@ parts:
     #after:
     #- patches
 
-    #source: git://gitlab.gnome.org/GNOME/libxml2.git
-    #source-depth: 1
-    source: http://xmlsoft.org/sources/libxml2-2.9.8.tar.gz
-    #source-tag:
+    source: https://gitlab.gnome.org/GNOME/libxml2.git
+    source-depth: 50
+    #source-tag: 'v2.9.8'
 
     plugin: autotools
     configflags:
