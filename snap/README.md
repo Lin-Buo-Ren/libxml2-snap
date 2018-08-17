@@ -27,8 +27,9 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 * `libxml2-utils.xmlcatalog` as `xmlcatalog`
 
 ## What is Working
-* Launch
-* `xmllint --format`
+* `libxml2-utils.xmllint --help`
+* `libxml2-utils.xmlcatalog --help`
+* `libxml2-utils.xmllint --format`
 
 ## What is NOT Working...yet 
 Nothing so far.
