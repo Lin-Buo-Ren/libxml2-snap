@@ -23,20 +23,16 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
     sudo snap connect libxml2-utils:removable-media
 
 ## What is Working
-
 * Launch
 * `xmllint --format`
 
 ## What is NOT Working...yet 
-
 Nothing so far.
 
 ## What is NOT Tested...yet
-
 Everything not mentioned in the "What is Working" section.
 
 ## Support
-
 * Report issues regarding using this snap to the issue tracker:  
   <https://github.com/Lin-Buo-Ren/libxml2-snap/issues>
 * You may also post on the Snapcraft Forum, under the `snap` topic category:  
