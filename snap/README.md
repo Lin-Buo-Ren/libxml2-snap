@@ -22,6 +22,10 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
     ## `removable-media`: For accessing XML files in removable media storage devices ##
     sudo snap connect libxml2-utils:removable-media
 
+## Exposed Commands
+* `libxml2-utils.xmllint` as `xmllint`
+* `libxml2-utils.xmlcatalog` as `xmlcatalog`
+
 ## What is Working
 * Launch
 * `xmllint --format`
