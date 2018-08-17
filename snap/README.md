@@ -15,8 +15,7 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 ([Don't have the `snap` command installed?](https://snapcraft.io/docs/core/install))
 
     # Install Snap #
-    sudo snap install --channel=edge --devmode libxml2-utils
-    #sudo snap install --channel=beta libxml2-utils
+    sudo snap install --channel=beta libxml2-utils
     #sudo snap install libxml2-utils
     
     # Connect the Snap to Optional Interfaces #
