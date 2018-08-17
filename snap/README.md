@@ -39,7 +39,6 @@ Everything not mentioned in the "What is Working" section.
 
 * Report issues regarding using this snap to the issue tracker:  
   <https://github.com/Lin-Buo-Ren/libxml2-snap/issues>
-
 * You may also post on the Snapcraft Forum, under the `snap` topic category:  
   <https://forum.snapcraft.io/c/snap>
 
