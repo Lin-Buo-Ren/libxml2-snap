@@ -191,6 +191,7 @@ parts:
 
     - libicu-dev
     - liblzma-dev
+    - pkg-config
     - zlib1g-dev
     stage-packages:
     - libicu55
