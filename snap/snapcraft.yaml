@@ -54,7 +54,7 @@ version-script: |
   printf -- '%s' "${upstream_version}+pkg-${packaging_revision}"
 
 confinement: strict
-grade: devel
+grade: stable
 icon: snap/gui/icon.png
 
 apps:
