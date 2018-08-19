@@ -170,7 +170,7 @@ parts:
 
     source: https://gitlab.gnome.org/GNOME/libxml2.git
     source-depth: 50
-    #source-tag: 'v2.9.8'
+    source-tag: 'v2.9.8'
 
     plugin: autotools
     configflags:
