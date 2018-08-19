@@ -27,7 +27,7 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 - [x] Post an announcement in the [Snapcraft Forum](https://forum.snapcraft.io) - [link](https://forum.snapcraft.io/t/unofficial-snap-packaging-for-xml-toolkit-from-the-gnome-project/6947)
 - [ ] Submit a pull request or patch upstream that adds snap install documentation - [link]()
 - [ ] Submit a pull request or patch upstream that adds the `snapcraft.yaml` and any required assets/launchers - [link]()
-- [ ] Add upstream contact information to this `README.md`
+- [x] Add upstream contact information to this `README.md`
 - If upstream accept the PR:
   - [ ] Request upstream create a Snap store account
   - [ ] Contact the Snap Advocacy team to request the snap be transferred to upstream
