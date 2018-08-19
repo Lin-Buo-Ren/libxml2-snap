@@ -1,7 +1,7 @@
-# Snap Packaging for XML Toolkit from the GNOME Project
+# Unofficial Snap Packaging for XML Toolkit from the GNOME Project
 ![Icon of XML Toolkit from the GNOME Project](gui/icon.png "Icon of XML Toolkit from the GNOME Project")
 
-**This is the snap for XML Toolkit from the GNOME Project**, *"XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform)"*. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
+**This is the unofficial snap for XML Toolkit from the GNOME Project**, *"XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform)"*. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
 
 [![Build Status Badge of the `libxml2-utils` Snap](https://build.snapcraft.io/badge/Lin-Buo-Ren/libxml2-snap.svg "Build Status of the `libxml2-utils` snap")](https://build.snapcraft.io/user/Lin-Buo-Ren/libxml2-snap)
 
