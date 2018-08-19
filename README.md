@@ -10,6 +10,7 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
   - It is recommended to *avoid forking the template repository* unless you're working on the template itself because you can only fork a repository once
 - [x] Update the description of the repository
 - [x] Update logos and references to `[Project]` and `[my-snap-name]` in `README.md`, `snap/snapcraft.yaml`, and `snap/README.md`
+- [x] Add upstream contact information to this `README.md`
 - [x] Create a snap that runs in `devmode`
 - [x] Add a screenshot to `snap/README.md`
 - [x] Register the snap in the store, **using the preferred upstream name**(i.e. without custom postfix).  If the preferred upstream name is not available or reserved, [file a request to take over the preferred upstream name](https://dashboard.snapcraft.io/register-snap) and temporary use a name with personal postfix instead.
@@ -27,11 +28,16 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 - [x] Post an announcement in the [Snapcraft Forum](https://forum.snapcraft.io) - [link](https://forum.snapcraft.io/t/unofficial-snap-packaging-for-xml-toolkit-from-the-gnome-project/6947)
 - [ ] Submit a pull request or patch upstream that adds snap install documentation - [link]()
 - [ ] Submit a pull request or patch upstream that adds the `snapcraft.yaml` and any required assets/launchers - [link]()
-- [x] Add upstream contact information to this `README.md`
-- If upstream accept the PR:
-  - [ ] Request upstream create a Snap store account
-  - [ ] Contact the Snap Advocacy team to request the snap be transferred to upstream
-- [ ] Ask the Snap Advocacy team to celebrate the snap - [link]()
+
+Depending on the upstream's response:
+
+- If the upstream accepts the PR:
+    - [ ] Request upstream create a Snap store account
+    - [ ] Contact the Snap Advocacy team to request the snap be transferred to upstream
+- If the upstream rejects the PR:
+    - [ ] Ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to fork your repo into github.com/snapcrafters, transfer the snap name from you to snapcrafters, and configure the repo for automatic publishing into edge on commit
+
+* [ ] Ask the Snap Advocacy team to celebrate the snap - [link]()
 
 If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft.io).
 
