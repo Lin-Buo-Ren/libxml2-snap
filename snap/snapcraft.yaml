@@ -23,7 +23,7 @@ description: |
 
   This snap is NOT OFFICIAL, for any issue regarding using the snap please refer to the issue tracker:
 
-  https://github.com/Lin-Buo-Ren/libxml2-snap
+  https://github.com/Lin-Buo-Ren/libxml2-snap/issues
 
 version: determined-by-version-script
 
