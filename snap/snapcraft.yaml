@@ -19,7 +19,7 @@ summary: XML Toolkit from the GNOME Project
 description: |
   Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.
 
-  This snap ships the latest released and development snapshot of libxml2 itself and expose its utilites to the system.
+  This snap ships the latest released and development snapshot of libxml2 itself and expose its command-line utilites to the system.
 
   This snap is NOT OFFICIAL, for any issue regarding using the snap please refer to the issue tracker:
 
