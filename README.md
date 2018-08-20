@@ -21,7 +21,6 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 - [x] Publish the confined snap in the Snap store beta channel
 - [x] Update the install instructions in `snap/README.md`
 - [x] Post a call for testing on the [Snapcraft Forum](https://forum.snapcraft.io) - [link](https://forum.snapcraft.io/t/call-for-testing-libxml2-utils/6917)
-- [ ] (Skipped, wait until upstream denied to merge the snap)Ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to fork your repo into github.com/snapcrafters, transfer the snap name from you to snapcrafters, and configure the repo for automatic publishing into edge on commit
 - [x] Add the provided Snapcraft build badge to `snap/README.md`
 - [x] Publish the snap in the Snap store stable channel
 - [x] Update the install instructions in `snap/README.md`
