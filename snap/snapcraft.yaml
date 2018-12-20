@@ -78,7 +78,6 @@ parts:
 
     plugin: autotools
     configflags:
-    - --disable-static
     - --disable-dependency-tracking
     build-packages:
     # Required by Python bindings
