@@ -114,17 +114,18 @@ parts:
       - -share/man/man3/*
       executables:
       - bin/*
+      - etc/*
       files-in-stage-packages:
       - usr/*
-      include-headers:
+      library-headers:
       - include/*
-      libtool-library:
+      library-libtool:
       - lib/*.la
+      library-pkgconfig:
+      - lib/pkgconfig/*
+      library-shared:
+      - lib/*.so*
+      library-static:
+      - lib/*.a
       m4:
       - share/aclocal/*.m4
-      pkgconfig:
-      - lib/pkgconfig/*
-      static-library:
-      - lib/*.a
-      shared-library:
-      - lib/*.so*
