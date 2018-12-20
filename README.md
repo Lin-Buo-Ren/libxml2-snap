@@ -34,7 +34,7 @@ Depending on the upstream's response:
     - [ ] Request upstream create a Snap store account
     - [ ] Contact the Snap Advocacy team to request the snap be transferred to upstream
 - If the upstream rejects the PR:
-    - [ ] Ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to fork your repo into github.com/snapcrafters, transfer the snap name from you to snapcrafters, and configure the repo for automatic publishing into edge on commit - [link](https://forum.snapcraft.io/t/please-transfer-libxml2-utils-to-snapcrafters/8807)
+    - [x] Ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to fork your repo into github.com/snapcrafters, transfer the snap name from you to snapcrafters, and configure the repo for automatic publishing into edge on commit - [link](https://forum.snapcraft.io/t/please-transfer-libxml2-utils-to-snapcrafters/8807)
 
 * [ ] Ask the Snap Advocacy team to celebrate the snap - [link]()
 
