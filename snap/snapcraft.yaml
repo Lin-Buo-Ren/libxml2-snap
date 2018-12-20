@@ -126,9 +126,3 @@ parts:
       - lib/*.a
       shared-library:
       - lib/*.so*
-
-    stage:
-    - $executables
-    - $docs-copyright
-    - $shared-library
-    - $files-in-stage-packages
