@@ -80,11 +80,10 @@ parts:
     configflags:
     - --disable-static
     - --disable-dependency-tracking
-    - --without-python
     build-packages:
-    # DISABLED: Python binding not required
-    #- libpython-all-dev
-    #- python-all-dev
+    # Required by Python bindings
+    - libpython-all-dev
+    - python-all-dev
 
     # DISABLED: Automatically installed by `autotools` plugin
     #- autoconf
@@ -98,6 +97,10 @@ parts:
     - zlib1g-dev
     stage-packages:
     - libicu55
+
+    # Required by Python bindings
+    - libpython2.7
+
     - liblzma5
     - zlib1g
 
