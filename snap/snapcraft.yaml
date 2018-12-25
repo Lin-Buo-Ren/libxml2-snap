@@ -59,6 +59,9 @@ plugs:
   home:
   removable-media:
 
+  # Network access for fetching DTDs or entities over network
+  network:
+
 grade: stable
 icon: snap/gui/icon.png
 
