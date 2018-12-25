@@ -54,21 +54,20 @@ version-script: |
   printf -- '%s' "${upstream_version}+pkg-${packaging_revision}"
 
 confinement: strict
+plugs:
+  # Storage access
+  home:
+  removable-media:
+
 grade: stable
 icon: snap/gui/icon.png
 
 apps:
   xmllint:
     command: xmllint
-    plugs:
-    - home
-    - removable-media
 
   xmlcatalog:
     command: xmlcatalog
-    plugs:
-    - home
-    - removable-media
 
 parts:
   libxml2:
