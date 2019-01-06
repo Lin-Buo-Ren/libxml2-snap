@@ -3,7 +3,7 @@
 
 **This is the unofficial snap for XML Toolkit from the GNOME Project**, *"XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform)"*. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
 
-[![Build Status Badge of the `libxml2` Snap](https://build.snapcraft.io/badge/Lin-Buo-Ren/libxml2-snap.svg "Build Status of the `libxml2` snap")](https://build.snapcraft.io/user/Lin-Buo-Ren/libxml2-snap)
+[![Build Status Badge of the `libxml2-utils` Snap](https://build.snapcraft.io/badge/Lin-Buo-Ren/libxml2-snap.svg "Build Status of the `libxml2-utils` snap")](https://build.snapcraft.io/user/Lin-Buo-Ren/libxml2-snap)
 
 ![Screenshot of the Snapped Application](screenshots/xmllint-version.png "Screenshot of the Snapped Application")
 
@@ -13,20 +13,20 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 ([Don't have the `snap` command installed?](https://snapcraft.io/docs/core/install))
 
     # Install Snap #
-    sudo snap install libxml2
+    sudo snap install libxml2-utils
     
     # Connect the Snap to Optional Interfaces #
     ## `removable-media`: For accessing XML files in removable media storage devices ##
-    sudo snap connect libxml2:removable-media
+    sudo snap connect libxml2-utils:removable-media
 
 ## Exposed Commands
-* `libxml2.xmllint` as `xmllint`
-* `libxml2.xmlcatalog` as `xmlcatalog`
+* `libxml2-utils.xmllint` as `xmllint`
+* `libxml2-utils.xmlcatalog` as `xmlcatalog`
 
 ## What is Working
-* `libxml2.xmllint --help`
-* `libxml2.xmlcatalog --help`
-* `libxml2.xmllint --format`
+* `libxml2-utils.xmllint --help`
+* `libxml2-utils.xmlcatalog --help`
+* `libxml2-utils.xmllint --format`
 
 ## What is NOT Working...yet 
 Nothing so far.
