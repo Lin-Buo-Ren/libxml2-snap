@@ -24,6 +24,7 @@ description: |
 
   https://github.com/Lin-Buo-Ren/libxml2-snap/issues
 
+icon: snap/gui/icon.png
 version: determined-by-version-script
 
 version-script: |
@@ -54,7 +55,6 @@ version-script: |
 
 confinement: strict
 grade: stable
-icon: snap/gui/icon.png
 
 parts:
   libxml2:
