@@ -53,14 +53,6 @@ version-script: |
   printf -- '%s' "${upstream_version}+pkg-${packaging_revision}"
 
 confinement: strict
-plugs:
-  # Storage access
-  home:
-  removable-media:
-
-  # Network access for fetching DTDs or entities over network
-  network:
-
 grade: stable
 icon: snap/gui/icon.png
 
@@ -130,3 +122,11 @@ apps:
 
   xmlcatalog:
     command: xmlcatalog
+
+plugs:
+  # Storage access
+  home:
+  removable-media:
+
+  # Network access for fetching DTDs or entities over network
+  network:
