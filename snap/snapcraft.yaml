@@ -64,13 +64,6 @@ plugs:
 grade: stable
 icon: snap/gui/icon.png
 
-apps:
-  xmllint:
-    command: xmllint
-
-  xmlcatalog:
-    command: xmlcatalog
-
 parts:
   libxml2:
     source: https://gitlab.gnome.org/GNOME/libxml2.git
@@ -130,3 +123,10 @@ parts:
       - lib/*.a
       m4:
       - share/aclocal/*.m4
+
+apps:
+  xmllint:
+    command: xmllint
+
+  xmlcatalog:
+    command: xmlcatalog
