@@ -25,42 +25,19 @@ description: |
   https://github.com/Lin-Buo-Ren/libxml2-snap/issues
 
 icon: snap/gui/icon.png
-version: determined-by-version-script
 
-version-script: |
-  set \
-    -o errexit \
-    -o nounset
-
-  upstream_version="$(
-    git \
-      -C parts/libxml2/src \
-      describe \
-      --always \
-      --dirty=-d \
-      --tags \
-    | sed s/^v//
-  )"
-
-  packaging_revision="$(
-    git \
-      describe \
-      --abbrev=4 \
-      --always \
-      --match nothing \
-      --dirty=-d
-  )"
-
-  printf -- '%s' "${upstream_version}+pkg-${packaging_revision}"
-
+adopt-info: libxml2
+base: core
 confinement: strict
 grade: stable
 
 parts:
   libxml2:
+    after:
+    - selective-checkout
+
     source: https://gitlab.gnome.org/GNOME/libxml2.git
     source-depth: 50
-    source-tag: v2.9.9
 
     plugin: autotools
     configflags:
@@ -89,6 +66,12 @@ parts:
     - liblzma5
     - zlib1g
 
+    override-pull: |
+      snapcraftctl pull
+
+      "$SNAPCRAFT_STAGE"/scriptlets/selective-checkout \
+        --append-packaging-revision
+
     filesets:
       cmake:
       - lib/cmake/*
@@ -115,6 +98,17 @@ parts:
       - lib/*.a
       m4:
       - share/aclocal/*.m4
+
+  # Check out the tagged release revision if it isn't promoted to the stable channel
+  # https://forum.snapcraft.io/t/selective-checkout-check-out-the-tagged-release-revision-if-it-isnt-promoted-to-the-stable-channel/10617
+  selective-checkout:
+    plugin: nil
+    build-packages:
+    - git
+    stage-snaps:
+    - selective-checkout
+    prime:
+    - -*
 
 apps:
   xmllint:
