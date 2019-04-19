@@ -28,6 +28,8 @@ description: |
 icon: snap/gui/icon.png
 license: MIT
 
+assumes:
+- command-chain
 adopt-info: libxml2
 base: core
 confinement: strict
@@ -112,12 +114,27 @@ parts:
     prime:
     - -*
 
+  # Launcher programs to fix problems at runtime
+  launchers:
+    source: snap/local/launchers
+    plugin: dump
+    organize:
+      '*': bin/
+    stage:
+    - -bin/README.*
+
 apps:
   xmllint:
-    command: xmllint
+    adapter: full
+    command: bin/xmllint
+    command-chain:
+    - bin/libxml2-launch
 
   xmlcatalog:
-    command: xmlcatalog
+    adapter: full
+    command: bin/xmlcatalog
+    command-chain:
+    - bin/libxml2-launch
 
 plugs:
   # Storage access
