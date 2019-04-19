@@ -14,6 +14,7 @@
 # For support refer to the snapcraft section in the Snapcraft Forum:
 # https://forum.snapcraft.io/c/snapcraft
 name: libxml2
+title: XML Toolkit from the GNOME Project
 summary: XML C parser and toolkit developed for the Gnome project
 description: |
   Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.
@@ -25,6 +26,7 @@ description: |
   https://github.com/Lin-Buo-Ren/libxml2-snap/issues
 
 icon: snap/gui/icon.png
+license: MIT
 
 adopt-info: libxml2
 base: core
