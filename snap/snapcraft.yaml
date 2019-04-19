@@ -13,7 +13,7 @@
 #   https://forum.snapcraft.io/c/doc
 # For support refer to the snapcraft section in the Snapcraft Forum:
 # https://forum.snapcraft.io/c/snapcraft
-name: libxml2-utils
+name: libxml2
 title: XML Toolkit from the GNOME Project
 summary: XML C parser and toolkit developed for the Gnome project
 description: |
@@ -74,8 +74,7 @@ parts:
       snapcraftctl pull
 
       "$SNAPCRAFT_STAGE"/scriptlets/selective-checkout \
-        --append-packaging-revision \
-        --force-stable
+        --append-packaging-revision
 
     filesets:
       cmake:

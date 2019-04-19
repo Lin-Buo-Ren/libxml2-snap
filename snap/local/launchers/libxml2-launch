@@ -17,16 +17,3 @@ if test $# -ne 0; then
 else
     :
 fi
-
-(
-    # Redirect to standard error device to avoid corrupting regular output
-    printf -- \
-        '\n# %s #\n%s\n\n%s\n\n    %s\n\n' \
-        "Snap Obsoletion Notice" \
-        \
-        "Hello, the \`libxml2-utils\` snap is now obsoleted and will no longer recieve any updates, please remove this snap and install the \`libxml2\` snap instead." \
-        \
-        "If you have any questions regarding the obsoletion, please refer to the issue tracker:" \
-        \
-        "https://github.com/Lin-Buo-Ren/libxml2-snap/issues"
-) 1>&2
