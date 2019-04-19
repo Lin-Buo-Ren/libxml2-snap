@@ -13,7 +13,7 @@
 #   https://forum.snapcraft.io/c/doc
 # For support refer to the snapcraft section in the Snapcraft Forum:
 # https://forum.snapcraft.io/c/snapcraft
-name: libxml2
+name: libxml2-utils
 title: XML Toolkit from the GNOME Project
 summary: XML C parser and toolkit developed for the Gnome project
 description: |
