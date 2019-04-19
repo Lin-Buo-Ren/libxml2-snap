@@ -12,7 +12,11 @@ set \
 #export IMPORTANT_ENVIRONMENT_VARIABLE=value
 
 # Finally run the next part of the command chain
-"${@}"
+if test $# -ne 0; then
+    "${@}" || true
+else
+    :
+fi
 
 (
     # Redirect to standard error device to avoid corrupting regular output
